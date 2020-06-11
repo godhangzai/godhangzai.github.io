@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-11T05:26:46.572Z</updated>
+  <updated>2020-06-11T07:29:46.851Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,157 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>article title</title>
-    <link href="http://yoursite.com/2020/06/11/article-title/"/>
-    <id>http://yoursite.com/2020/06/11/article-title/</id>
-    <published>2020-06-11T05:26:46.000Z</published>
-    <updated>2020-06-11T05:26:46.572Z</updated>
+    <title>数据结构</title>
+    <link href="http://yoursite.com/2020/06/11/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2020/06/11/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-06-11T07:09:48.000Z</published>
+    <updated>2020-06-11T07:29:46.851Z</updated>
+    
+    <content type="html"><![CDATA[<p>阿尔文·托夫勒：人类步入信息化阶段</p><p>数据结构三要素：逻辑结构、存储结构、数据的运算</p><p>数据结构：相互之间存在一种或多种特定关系的数据元素的集合</p><p>数据对象：具有相同性质的数据元素的集合</p><p>逻辑结构包括：集合；<br>             线性结构（一对一关系）<br>             树形结构（一对多关系）<br>             图状结构（多对多关系）</p><p>存储结构： 顺序存储（物理位置相邻）<br>          链式存储（物理位置可以不相邻，用指针表示逻辑关系）<br>          索引存储（索引项一般形式是关键字和地址）<br>          散列存储（根据元素的关键字直接计算出该元素的存储地址，又称哈希存储）</p><p>数据类型： 原子类型————bool类型（值为true或false）<br>                      int类型</p><pre><code>结构类型————其值可分解为若干分量的数据类型</code></pre><p>抽象数据类型（ADT）————只考虑逻辑结构与数据运算，不考虑存储结构</p><p>程序 = 数据结构 + 算法</p><p>好的算法特质： 高效率————时间复杂度低<br>              低存储————空间复杂度低</p><p>时间复杂度排序： 常对幂指阶数</p><p>结论1： 顺序执行的代码只会影响常数项，可以忽略<br>结论2： 只需挑循环中的一个基本操作分析其执行次数与n的关系即可；<br>结论3： 如果有多层嵌套，只需关注最深层循环了几次</p><p>考虑最坏时间复杂度与平均时间复杂度</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;阿尔文·托夫勒：人类步入信息化阶段&lt;/p&gt;
+&lt;p&gt;数据结构三要素：逻辑结构、存储结构、数据的运算&lt;/p&gt;
+&lt;p&gt;数据结构：相互之间存在一种或多种特定关系的数据元素的集合&lt;/p&gt;
+&lt;p&gt;数据对象：具有相同性质的数据元素的集合&lt;/p&gt;
+&lt;p&gt;逻辑结构包括：集合；&lt;br&gt;    
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>绑定域名</title>
+    <link href="http://yoursite.com/2020/05/21/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/"/>
+    <id>http://yoursite.com/2020/05/21/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/</id>
+    <published>2020-05-21T05:04:12.000Z</published>
+    <updated>2020-06-11T07:15:05.411Z</updated>
+    
+    <content type="html"><![CDATA[<p>绑定域名<br>现在默认的域名还是xxx.github.io，是不是很没有牌面？想不想也像我一样弄一个专属域名呢，首先你得购买一个域名，xx云都能买，看你个人喜好了。<br>以我的阿里云为例，添加两条解析记录<br>然后打开你的github博客项目，点击settings，拉到下面Custom domain处，填上你自己的域名，保存:<br>这时候你的项目根目录应该会出现一个名为CNAME的文件了。如果没有的话，打开你本地博客/source目录，我的是D:\study\program\blog\source，新建CNAME文件，注意没有后缀。然后在里面写上你的域名，保存。最后运行hexo g、hexo d上传到github。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;绑定域名&lt;br&gt;现在默认的域名还是xxx.github.io，是不是很没有牌面？想不想也像我一样弄一个专属域名呢，首先你得购买一个域名，xx云都能买，看你个人喜好了。&lt;br&gt;以我的阿里云为例，添加两条解析记录&lt;br&gt;然后打开你的github博客项目，点击settings，拉
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>blog重新发布文章无法正常访问</title>
+    <link href="http://yoursite.com/2020/04/24/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%96%B0%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE/"/>
+    <id>http://yoursite.com/2020/04/24/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%96%B0%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE/</id>
+    <published>2020-04-24T07:03:54.000Z</published>
+    <updated>2020-06-11T07:15:51.544Z</updated>
+    
+    <content type="html"><![CDATA[<p>个人博客重新发布文章无法正常访问<br>对于已绑定域名的网站，本地上传github项目，重新打开网页时出现 404 There isn’t GitHub Pages site here.<br>解决办法: 只需登录github重新保存项目域名即可.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;个人博客重新发布文章无法正常访问&lt;br&gt;对于已绑定域名的网站，本地上传github项目，重新打开网页时出现 404 There isn’t GitHub Pages site here.&lt;br&gt;解决办法: 只需登录github重新保存项目域名即可.&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>获取图片URL地址</title>
+    <link href="http://yoursite.com/2020/04/18/%E8%8E%B7%E5%8F%96%E5%9B%BE%E7%89%87URL%E5%9C%B0%E5%9D%80/"/>
+    <id>http://yoursite.com/2020/04/18/%E8%8E%B7%E5%8F%96%E5%9B%BE%E7%89%87URL%E5%9C%B0%E5%9D%80/</id>
+    <published>2020-04-18T07:04:38.000Z</published>
+    <updated>2020-06-11T07:16:40.607Z</updated>
+    
+    <content type="html"><![CDATA[<p>获取图片URL地址<br>　在写博客插入图片时，许多时候需要提供图片的url地址。作为菜鸡的我，自然是一脸懵逼。那么什么是所谓的url地址呢？又该如何获取图片的url地址呢？<br>​ 首先来看一下度娘对url地址的解释：url是统一资源定位符，对可以从互联网上得到的资源的位置和访问方法的一种简洁的表示，是互联网上标准资源的地址。互联网上的每个文件都有一个唯一的url，它包含的信息指出文件的位置以及浏览器应该怎么处理它。<br>​ 简单来说，url地址是是用来定位、访问网上资源用的。常见的网址也属于url地址。那么该如何获取一张图片的url地址呢？<br>​ url既然是用来访问网络资源的，所以在获取url地址前，得先把本地的图片上传到网络上去。那么该把本地的图片上传到哪里呢？这时候，你就不得不接触一个新事物了——图床。<br>​ 再看一下度娘对图床的解释：图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。<br>​ 具体选用哪个图床，可以自行百度、选择。这里以SM.MS(<a href="https://sm.ms/" target="_blank" rel="noopener">https://sm.ms/</a>, 国外一家免费且免注册的图床)为例，讲一下获取url的流程。<br>​ 1、进入网站后，点击右下角“Browse…”按钮，即可弹出在本地选择图片界面。选中图片，单击“打开”按钮。<br>​ 2、单击“打开”后的界面如下所示。再单击“Upload”按钮，即可上传图片。<br>　3、上传成功，即可在网页靠下部分生成该图片的url地址。大功告成！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;获取图片URL地址&lt;br&gt;　在写博客插入图片时，许多时候需要提供图片的url地址。作为菜鸡的我，自然是一脸懵逼。那么什么是所谓的url地址呢？又该如何获取图片的url地址呢？&lt;br&gt;​ 首先来看一下度娘对url地址的解释：url是统一资源定位符，对可以从互联网上得到的资源的
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hosts</title>
+    <link href="http://yoursite.com/2020/04/13/hosts%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2020/04/13/hosts%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-04-13T05:26:46.000Z</published>
+    <updated>2020-06-11T07:14:42.949Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.Hosts具体作用<br>（1）虚拟域名<br>​ 很多时候，网站建设者需要把”软环境“搭建好，再进行上传调试。但类似于邮件服务，则需要使用域名来辅助调试，这时就可以将本地 IP 地址与一个”虚拟域名“做地址指向，就可以达到要求的效果，且无需花费。<br>​<br>如：<br>127.0.0.1 <a href="http://www.gg.com" target="_blank" rel="noopener">www.gg.com</a> 之后在浏览器地址栏中输入对应的网站域名即可。<br>（2）加快域名解析<br>​ 对于要经常访问的网站，我们可以通过在Hosts中配置域名和IP的映射关系，提高域名解析速度，当我们输入域名计算机就能很快解析出IP，而不用请求网络上的DNS服务器。<br>（3）屏蔽网站（域名重定向）<br>​ 有很多网站不经过用户同意就将各种各样的插件安装到你的计算机中，其中有些说不定就是木马或病毒。对于这些网站我们可以利用Hosts把该网站的域名映射到错误的IP或本地计算机的IP，这样就不用访问了。在WINDOWS系统中，约定 127.0.0.1 为本地计算机的IP地址, 0.0.0.0是错误的IP地址。<br>如果，我们在Hosts中，写入以下内容：<br>127.0.0.1 # 要屏蔽的网站 A<br>0.0.0.0 # 要屏蔽的网站 B<br>如：<br>127.0.0.1 <a href="http://www.hao123.com" target="_blank" rel="noopener">www.hao123.com</a><br>127.0.0.1 <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a><br>这样，计算机解析域名A和 B时，就解析到本机IP或错误的IP，达到了屏蔽网站A 和B的目的。<br>（4）方便局域网用户<br>​ 在很多单位的局域网中，会有服务器提供给用户使用。但由于局域网中一般很少架设DNS服务器，访问这些服务器时，要输入难记的IP地址。这对不少人来说相当麻烦。可以分别给这些服务器取个容易记住的名字，然后在Hosts中建立IP映射，这样以后访问的时候，只要输入这个服务器的名字就行了。<br>（5）顺利连接系统<br>​ 对于Lotus的服务器和一些数据库服务器，在访问时如果直接输入IP地址那是不能访问的，只能输入服务器名才能访问。那么我们配置好Hosts文件，这样输入服务器名就能顺利连接了。<br>（6）强制域名解析指定IP<br>​ 比如一些网站有很多的服务器ip，有些ip可能被和谐了，那么我们可以在hosts文件里添加我们想要的ip跟域名。<br>2.更改hosts文件<br>访问老D博客（laod.cn），下载最新hosts文件，跟换原hosts文件，打开google浏览器<br>原hosts所在文件夹：<br>Windows 系统hosts位于 C:\Windows\System32\drivers\etc\hosts<br>Android（安卓）系统hosts位于 /etc/hosts<br>Mac（苹果电脑）系统hosts位于 /etc/hosts<br>iPhone（iOS）系统hosts位于 /etc/hosts<br>Linux系统hosts位于 /etc/hosts<br>绝大多数Unix系统都是在 /etc/hosts<br>注：目前暂不支持Google Chrome/Chromium的正式版本，以及<br>基于Chromium内核的浏览器；<br>建议使用最新的Chrome Canary金丝雀版，或者最新的Dev开发版。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.Hosts具体作用&lt;br&gt;（1）虚拟域名&lt;br&gt;​ 很多时候，网站建设者需要把”软环境“搭建好，再进行上传调试。但类似于邮件服务，则需要使用域名来辅助调试，这时就可以将本地 IP 地址与一个”虚拟域名“做地址指向，就可以达到要求的效果，且无需花费。&lt;br&gt;​&lt;br&gt;如：
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>谷歌浏览器下载视频</title>
+    <link href="http://yoursite.com/2020/04/11/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/"/>
+    <id>http://yoursite.com/2020/04/11/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</id>
+    <published>2020-04-11T10:04:26.000Z</published>
+    <updated>2020-06-11T07:16:17.370Z</updated>
+    
+    <content type="html"><![CDATA[<p>网站视频下载<br>​ 打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，<br>通常文件大小最大的那个即为当前播放视频文件，点击视频文件，找到Headers下面的Request URL复制这个地址，<br>然后打开这个视频网页，右键另存为本地。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;网站视频下载&lt;br&gt;​ 打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，&lt;br&gt;通常文件大小最大的那个即为当前播放视频文件，点击视频文件，找到Headers下面的Request URL复制这个地址，&lt;br&gt;然后打开这个视频网页，右键另存为本地
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>更换主题报错</title>
+    <link href="http://yoursite.com/2020/04/11/extends%20includes%E6%8A%A5%E9%94%99/"/>
+    <id>http://yoursite.com/2020/04/11/extends%20includes%E6%8A%A5%E9%94%99/</id>
+    <published>2020-04-11T07:09:58.000Z</published>
+    <updated>2020-06-11T07:14:19.655Z</updated>
+    
+    <content type="html"><![CDATA[<p>对于使用melody主题 更换主题重新上传报错<br>“extends includes/layout.pug block content include includes/recent-posts.pug include includes/pagination.pug”</p><p>解决方案——————blog目录下git bash输入npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;对于使用melody主题 更换主题重新上传报错&lt;br&gt;“extends includes/layout.pug block content include includes/recent-posts.pug include includes/pagination.pug”&lt;
+      
     
     </summary>
     
@@ -33,10 +177,10 @@
   
   <entry>
     <title>小白心得</title>
-    <link href="http://yoursite.com/2020/06/11/my%20first%20blog/"/>
-    <id>http://yoursite.com/2020/06/11/my%20first%20blog/</id>
-    <published>2020-06-11T05:12:22.846Z</published>
-    <updated>2020-06-11T06:21:24.669Z</updated>
+    <link href="http://yoursite.com/2020/03/20/my%20first%20blog/"/>
+    <id>http://yoursite.com/2020/03/20/my%20first%20blog/</id>
+    <published>2020-03-20T07:19:38.000Z</published>
+    <updated>2020-06-11T07:13:46.801Z</updated>
     
     <content type="html"><![CDATA[<p>hey guys ╭(●｀∀´●)╯╰(●’◡’●)╮ (●’◡’●)ﾉ ヾ(´▽‘)ﾉ<br>欢迎大家阅读本文<br>2020/3/1开始搭建自己的博客，作为一名萌新，我还是很幸运的！终于在2020/3/20 22：18：44初步建成自己的博客，我认为这是一个很值得纪念的时刻，所以我精确到了分秒，毕竟这次的建站耗费了我许久的时间 ˃̣̣̥᷄⌓˂̣̣̥᷅ 当完成hexo主题背景图片的更换，上传能正常浏览时, 我还是很激动的 乁( ˙ ω˙乁)觉得之前花的时间没有白费。<br>在制作blog期间，我一次又一次删除自己的blog文件，起初是因为没有连接Github与本地，后来是因为修改主题出现了问题，不得不佩服的自己的耐心，|･ω･｀)<br>2020年3月期间搭建了自己的博客，呕心沥血这些天，终于初步建立起了，在此感谢B站的小伙伴们，以及github社区的朋友们。</p>]]></content>
     

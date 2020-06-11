@@ -32,19 +32,19 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2020/06/11/hello-world/"/>
-    <id>http://yoursite.com/2020/06/11/hello-world/</id>
+    <title>小白心得</title>
+    <link href="http://yoursite.com/2020/06/11/my%20first%20blog/"/>
+    <id>http://yoursite.com/2020/06/11/my%20first%20blog/</id>
     <published>2020-06-11T05:12:22.846Z</published>
-    <updated>2020-06-11T05:12:22.846Z</updated>
+    <updated>2020-06-11T06:21:24.669Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>hey guys ╭(●｀∀´●)╯╰(●’◡’●)╮ (●’◡’●)ﾉ ヾ(´▽‘)ﾉ<br>欢迎大家阅读本文<br>2020/3/1开始搭建自己的博客，作为一名萌新，我还是很幸运的！终于在2020/3/20 22：18：44初步建成自己的博客，我认为这是一个很值得纪念的时刻，所以我精确到了分秒，毕竟这次的建站耗费了我许久的时间 ˃̣̣̥᷄⌓˂̣̣̥᷅ 当完成hexo主题背景图片的更换，上传能正常浏览时, 我还是很激动的 乁( ˙ ω˙乁)觉得之前花的时间没有白费。<br>在制作blog期间，我一次又一次删除自己的blog文件，起初是因为没有连接Github与本地，后来是因为修改主题出现了问题，不得不佩服的自己的耐心，|･ω･｀)<br>2020年3月期间搭建了自己的博客，呕心沥血这些天，终于初步建立起了，在此感谢B站的小伙伴们，以及github社区的朋友们。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;p&gt;hey guys ╭(●｀∀´●)╯╰(●’◡’●)╮ (●’◡’●)ﾉ ヾ(´▽‘)ﾉ&lt;br&gt;欢迎大家阅读本文&lt;br&gt;2020/3/1开始搭建自己的博客，作为一名萌新，我还是很幸运的！终于在2020/3/20 22：18：44初步建成自己的博客，我认为这是一个很值得纪念的
       
     
     </summary>
